@@ -1,4 +1,4 @@
-# Bao Bì Sơn Hà — Website đa ngôn ngữ (VI / EN / ZH)
+# Bao Bì In màu YFY — Website đa ngôn ngữ (VI / EN / ZH)
 
 ## Cài đặt & chạy
 
@@ -17,7 +17,7 @@ host: 'smtp.gmail.com',   // hoặc smtp.office365.com, smtp SMTP nhà cung cấ
 port: 587,
 user: 'ten-email-cua-ban@gmail.com',
 pass: 'mat-khau-ung-dung-16-ky-tu',
-to: 'lienhe@baobisonha.vn'   // email sẽ nhận yêu cầu liên hệ
+to: 'lienhe@baobiyfy.vn'   // email sẽ nhận yêu cầu liên hệ
 ```
 
 **Nếu dùng Gmail:** không dùng mật khẩu đăng nhập thường — Google sẽ chặn. Bạn cần:
