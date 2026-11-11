@@ -1,0 +1,95 @@
+<%- include('partials/header') %>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="stamp"><%- t.home.stamp %></span>
+      <h1><%- t.home.h1 %></h1>
+      <p class="hero-sub"><%= t.company.tagline %> — <%= t.home.sub %></p>
+      <div class="hero-cta">
+        <a href="/san-pham" class="btn btn-primary"><%= t.home.ctaPrimary %></a>
+        <a href="/lien-he" class="btn btn-outline"><%= t.home.ctaSecondary %></a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="box-card box-card-1">
+        <span class="box-tape"></span>
+        <span class="box-label">3 LỚP<br>B-FLUTE</span>
+      </div>
+      <div class="box-card box-card-2">
+        <span class="box-tape"></span>
+        <span class="box-label">FRAGILE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section stats">
+  <div class="wrap stats-grid">
+    <% t.home.stats.forEach(function(s){ %>
+      <div class="stat"><span class="stat-num"><%= s.num %></span><span class="stat-label"><%= s.label %></span></div>
+    <% }); %>
+  </div>
+</section>
+
+<section class="section gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><%= t.home.galleryTitle %></h2>
+    </div>
+    <div class="gallery-grid">
+      <% t.home.gallery.forEach(function(g){ %>
+        <figure class="gallery-item">
+          <img src="/images/<%= g.img %>" alt="<%= g.caption %>" loading="lazy">
+          <figcaption><%= g.caption %></figcaption>
+        </figure>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<section class="section products-preview">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><%= t.home.productsTitle %></h2>
+      <a href="/san-pham" class="link-more"><%- t.home.viewAll %></a>
+    </div>
+    <div class="product-grid">
+      <% t.productItems.forEach(function(p){ %>
+        <article class="product-card">
+          <img class="product-photo" src="/images/product-<%= p.id %>.svg" alt="<%= p.name %>" loading="lazy">
+          <h3><%= p.name %></h3>
+          <p><%= p.desc %></p>
+          <span class="product-use"><%= p.use %></span>
+        </article>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<section class="section process">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><%= t.home.processTitle %></h2>
+    </div>
+    <div class="process-grid">
+      <% t.processSteps.forEach(function(s){ %>
+        <div class="process-step">
+          <span class="process-num"><%= s.step %></span>
+          <h3><%= s.title %></h3>
+          <p><%= s.desc %></p>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band">
+  <div class="wrap cta-band-inner">
+    <h2><%= t.home.ctaBandTitle %></h2>
+    <p><%= t.home.ctaBandText %></p>
+    <a href="/lien-he" class="btn btn-primary"><%= t.home.ctaBandBtn %></a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

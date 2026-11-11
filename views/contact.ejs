@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="stamp"><%= t.contact.stamp %></span>
+    <h1><%- t.contact.h1 %></h1>
+  </div>
+</section>
+
+<section class="section contact-body">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h2><%= t.contact.infoTitle %></h2>
+      <p><strong><%= t.contact.addressLabel %></strong><br><%= company.address %></p>
+      <p><strong><%= t.contact.phoneLabel %></strong><br><a href="tel:<%= company.phone.replace(/\s/g,'') %>"><%= company.phone %></a></p>
+      <p><strong><%= t.contact.emailLabel %></strong><br><a href="mailto:<%= company.email %>"><%= company.email %></a></p>
+      <p><strong><%= t.contact.hoursLabel %></strong><br><%= t.contact.hoursValue %></p>
+    </div>
+
+    <div class="contact-form-wrap">
+      <% if (sent) { %>
+        <div class="form-success">
+          <h3><%= t.contact.successTitle %></h3>
+          <p><%= t.contact.successText %></p>
+        </div>
+      <% } else { %>
+        <% if (mailError) { %>
+          <div class="form-error">
+            <h3><%= t.contact.errorTitle %></h3>
+            <p><%= t.contact.errorText %></p>
+          </div>
+        <% } %>
+        <form class="contact-form" method="POST" action="/lien-he">
+          <label><%= t.contact.formName %>
+            <input type="text" name="name" required>
+          </label>
+          <label><%= t.contact.formPhone %>
+            <input type="tel" name="phone" required>
+          </label>
+          <label><%= t.contact.formMessage %>
+            <textarea name="message" rows="4" placeholder="<%= t.contact.formMessagePh %>"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary"><%= t.contact.formSubmit %></button>
+        </form>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,188 @@
+{
+  "sourceHash": "e46c0638c890cb3187ff751745d11c6da61a82b8",
+  "generatedAt": "2026-09-25T03:29:46.925Z",
+  "seeded": true,
+  "data": {
+    "code": "en",
+    "label": "English",
+    "company": {
+      "shortName": "YFY",
+      "legalName": "Công Ty TNHH Công Nghệ In Màu Bao Bì YFY",
+      "tagline": "Packaging that holds. Brands that last."
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "products": "Products",
+      "contact": "Contact"
+    },
+    "footer": {
+      "navTitle": "Navigate",
+      "contactTitle": "Contact",
+      "rights": "All rights reserved."
+    },
+    "home": {
+      "stamp": "MANUFACTURING &middot; PRINTING &middot; PACKAGING",
+      "h1": "Every shipment<br>is a promise<br>kept intact.",
+      "sub": "Corrugated boxes, kraft paper bags and folding cartons made to exact spec, delivered on schedule.",
+      "ctaPrimary": "View products",
+      "ctaSecondary": "Request a quote",
+      "stats": [
+        {
+          "num": "14",
+          "label": "years making packaging"
+        },
+        {
+          "num": "320+",
+          "label": "business clients"
+        },
+        {
+          "num": "98%",
+          "label": "orders delivered on time"
+        },
+        {
+          "num": "4",
+          "label": "production lines"
+        }
+      ],
+      "productsTitle": "Core product lines",
+      "viewAll": "View full catalog &rarr;",
+      "processTitle": "How an order works",
+      "ctaBandTitle": "Need a quote for your next shipment?",
+      "ctaBandText": "Send us your product specs and we'll reply with pricing within 24 business hours.",
+      "ctaBandBtn": "Get in touch",
+      "galleryTitle": "Factory & production photos",
+      "gallery": [
+        {
+          "img": "gallery-1.svg",
+          "caption": "Production facility"
+        },
+        {
+          "img": "gallery-2.svg",
+          "caption": "Printing line"
+        },
+        {
+          "img": "gallery-3.svg",
+          "caption": "Quality inspection"
+        },
+        {
+          "img": "gallery-4.svg",
+          "caption": "Packing & shipping"
+        }
+      ]
+    },
+    "about": {
+      "stamp": "ABOUT THE COMPANY",
+      "h1": "We treat packaging<br>as a commitment, not a box.",
+      "storyTitle": "The story of",
+      "p1": "Founded as a small print shop in Me Linh, {company} now runs 4 integrated production lines — from corrugating and flexo printing to die-cutting and finishing. We serve factories, retail chains and F&B brands that need packaging built to spec and delivered on time.",
+      "p2": "Our philosophy is simple: a dented box or a torn bag handle is a broken promise to the end customer. That's why every batch is tested for compression strength, moisture and print adhesion before it leaves the plant.",
+      "values": [
+        {
+          "title": "Built to spec",
+          "text": "Compression (ECT) and burst strength (BST) tested before every large production run."
+        },
+        {
+          "title": "On schedule",
+          "text": "Transparent production timeline, with status updates at every stage."
+        },
+        {
+          "title": "Sustainable materials",
+          "text": "FSC-certified recycled paper by default, phasing out single-use plastics."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Production site",
+          "text": "Lot 12, Quang Minh Industrial Park, Me Linh, Hanoi — 6,000m² facility"
+        },
+        {
+          "title": "Capacity",
+          "text": "Up to 40,000 cartons per day across the full production line"
+        },
+        {
+          "title": "Certifications",
+          "text": "ISO 9001:2015, FSC chain-of-custody for paper sourcing"
+        }
+      ],
+      "ctaTitle": "Want to tour the factory?",
+      "ctaText": "Book a visit to see the production line and quality checks in person.",
+      "ctaBtn": "Book a tour"
+    },
+    "products": {
+      "stamp": "PRODUCT CATALOG",
+      "h1": "Packaging for every<br>stage of your goods.",
+      "useLabel": "Best for",
+      "customTitle": "Can't find the right spec?",
+      "customText": "We design and produce to custom requirements — size, flute thickness, ink type, and flexible minimum order quantities for every order.",
+      "customBtn": "Send a custom request"
+    },
+    "contact": {
+      "stamp": "CONTACT",
+      "h1": "Send your specs,<br>get a quote in 24 hours.",
+      "infoTitle": "Contact information",
+      "addressLabel": "Address:",
+      "phoneLabel": "Phone:",
+      "emailLabel": "Email:",
+      "hoursLabel": "Business hours:",
+      "hoursValue": "Mon – Sat, 8:00 AM – 5:30 PM",
+      "formName": "Full name",
+      "formPhone": "Phone number",
+      "formMessage": "Packaging needs",
+      "formMessagePh": "Product type, dimensions, expected quantity...",
+      "formSubmit": "Send request",
+      "successTitle": "Request sent",
+      "successText": "Thanks for reaching out. Our sales team will respond within 24 business hours.",
+      "errorTitle": "Couldn't send your request",
+      "errorText": "There was an error sending the email. Please try again later or call the phone number below directly."
+    },
+    "productItems": [
+      {
+        "id": "thung-carton",
+        "name": "3-5-7 ply corrugated boxes",
+        "desc": "High-strength corrugated boxes with direct flexo printing, sized to order.",
+        "use": "Freight, export, industrial packaging"
+      },
+      {
+        "id": "tui-giay-kraft",
+        "name": "Kraft paper bags",
+        "desc": "Natural or laminated kraft paper bags with reinforced handles, custom logo printing.",
+        "use": "F&B, fashion, gifting, retail"
+      },
+      {
+        "id": "hop-gap",
+        "name": "Folding cartons",
+        "desc": "Rigid folding cartons with foil stamping and embossing, built for shelf display.",
+        "use": "Cosmetics, pharma, premium food"
+      },
+      {
+        "id": "mang-boc",
+        "name": "Wrapping & void-fill materials",
+        "desc": "PE shrink film, pallet stretch wrap, bubble wrap, and cushioning paper.",
+        "use": "Protecting goods in warehousing and transit"
+      }
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Brief intake",
+        "desc": "We review the product, dimensions, load requirements and budget with you."
+      },
+      {
+        "step": "02",
+        "title": "Sample design",
+        "desc": "Technical drawings and a physical sample are produced for your approval."
+      },
+      {
+        "step": "03",
+        "title": "Production",
+        "desc": "Printing, die-cutting and finishing on automated lines, with quality checks per batch."
+      },
+      {
+        "step": "04",
+        "title": "Delivery",
+        "desc": "Packed and shipped on schedule to your warehouse, nationwide."
+      }
+    ]
+  }
+}

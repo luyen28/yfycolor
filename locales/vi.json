@@ -1,0 +1,125 @@
+{
+  "code": "vi",
+  "label": "Tiếng Việt",
+  "company": {
+    "shortName": "YFY",
+    "legalName": "Công Ty TNHH Công Nghệ In Màu Bao Bì YFY",
+    "tagline": "Đóng gói chắc chắn, thương hiệu bền vững"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "navTitle": "Điều hướng",
+    "contactTitle": "Liên hệ",
+    "rights": "Mọi quyền được bảo lưu."
+  },
+  "home": {
+    "stamp": "SẢN XUẤT &middot; IN ẤN &middot; ĐÓNG GÓI",
+    "h1": "Mỗi kiện hàng<br>là một lời hứa<br>được giữ trọn.",
+    "sub": "thùng carton, túi giấy kraft và hộp gấp sản xuất theo đúng thông số kỹ thuật, giao đúng hẹn.",
+    "ctaPrimary": "Xem sản phẩm",
+    "ctaSecondary": "Yêu cầu báo giá",
+    "stats": [
+      { "num": "14", "label": "năm sản xuất bao bì" },
+      { "num": "320+", "label": "khách hàng doanh nghiệp" },
+      { "num": "98%", "label": "đơn hàng giao đúng hẹn" },
+      { "num": "4", "label": "dây chuyền sản xuất" }
+    ],
+    "productsTitle": "Nhóm sản phẩm chính",
+    "viewAll": "Xem toàn bộ danh mục &rarr;",
+    "galleryTitle": "Hình ảnh nhà máy & sản xuất",
+    "gallery": [
+      { "img": "gallery-1.svg", "caption": "Nhà xưởng sản xuất" },
+      { "img": "gallery-2.svg", "caption": "Dây chuyền in ấn" },
+      { "img": "gallery-3.svg", "caption": "Kiểm tra chất lượng" },
+      { "img": "gallery-4.svg", "caption": "Đóng gói & giao hàng" }
+    ],
+    "processTitle": "Quy trình đặt hàng",
+    "ctaBandTitle": "Cần báo giá cho lô hàng sắp tới?",
+    "ctaBandText": "Gửi thông số sản phẩm, chúng tôi phản hồi bảng giá trong vòng 24 giờ làm việc.",
+    "ctaBandBtn": "Liên hệ ngay"
+  },
+  "about": {
+    "stamp": "GIỚI THIỆU CÔNG TY",
+    "h1": "Chúng tôi làm bao bì<br>như làm một lời cam kết.",
+    "storyTitle": "Câu chuyện của",
+    "p1": "Thành lập từ một xưởng in nhỏ tại Mê Linh, {company} hôm nay vận hành 4 dây chuyền sản xuất khép kín — từ ép sóng, in flexo, bế đến ghim/dán thành phẩm. Chúng tôi phục vụ các nhà máy, chuỗi bán lẻ và thương hiệu F&B cần bao bì đúng thông số, đúng tiến độ.",
+    "p2": "Triết lý của chúng tôi đơn giản: một thùng hàng bị móp, một túi giấy bị rách quai đều là một lời hứa bị thất hứa với khách hàng cuối. Vì vậy mỗi lô hàng đều được kiểm định lực nén, độ ẩm và độ bám mực trước khi xuất xưởng.",
+    "values": [
+      { "title": "Đúng thông số", "text": "Kiểm tra lực nén (ECT), độ chịu bục (BST) trước mỗi lô sản xuất lớn." },
+      { "title": "Đúng tiến độ", "text": "Lịch sản xuất minh bạch, cập nhật tiến độ cho khách hàng theo từng công đoạn." },
+      { "title": "Vật liệu bền vững", "text": "Ưu tiên giấy tái chế đạt chuẩn FSC, giảm dần bao bì nhựa dùng một lần." }
+    ],
+    "facts": [
+      { "title": "Cơ sở sản xuất", "text": "Lô 12, KCN Quang Minh, Mê Linh, Hà Nội — nhà xưởng 6.000m²" },
+      { "title": "Năng lực", "text": "Lên đến 40.000 thùng carton / ngày trên toàn bộ dây chuyền" },
+      { "title": "Chứng nhận", "text": "ISO 9001:2015, quản lý chuỗi cung ứng giấy FSC-CoC" }
+    ],
+    "ctaTitle": "Muốn tham quan xưởng sản xuất?",
+    "ctaText": "Đặt lịch khảo sát trực tiếp dây chuyền và quy trình kiểm định chất lượng.",
+    "ctaBtn": "Đặt lịch tham quan"
+  },
+  "products": {
+    "stamp": "DANH MỤC SẢN PHẨM",
+    "h1": "Bao bì cho từng<br>giai đoạn của hàng hóa.",
+    "useLabel": "Ứng dụng",
+    "customTitle": "Không tìm thấy quy cách phù hợp?",
+    "customText": "Chúng tôi nhận thiết kế và sản xuất theo yêu cầu riêng: kích thước, độ dày sóng, loại mực in, số lượng tối thiểu linh hoạt theo từng đơn hàng.",
+    "customBtn": "Gửi yêu cầu tùy chỉnh"
+  },
+  "contact": {
+    "stamp": "LIÊN HỆ",
+    "h1": "Gửi thông số,<br>nhận báo giá trong 24 giờ.",
+    "infoTitle": "Thông tin liên hệ",
+    "addressLabel": "Địa chỉ:",
+    "phoneLabel": "Điện thoại:",
+    "emailLabel": "Email:",
+    "hoursLabel": "Giờ làm việc:",
+    "hoursValue": "Thứ 2 – Thứ 7, 8:00 – 17:30",
+    "formName": "Họ tên",
+    "formPhone": "Số điện thoại",
+    "formMessage": "Nhu cầu bao bì",
+    "formMessagePh": "Loại sản phẩm, kích thước, số lượng dự kiến...",
+    "formSubmit": "Gửi yêu cầu",
+    "successTitle": "Đã gửi thành công",
+    "successText": "Cảm ơn bạn đã liên hệ. Đội ngũ kinh doanh sẽ phản hồi trong vòng 24 giờ làm việc.",
+    "errorTitle": "Chưa gửi được yêu cầu",
+    "errorText": "Đã có lỗi khi gửi email. Vui lòng thử lại sau hoặc gọi trực tiếp số điện thoại bên cạnh."
+  },
+  "productItems": [
+    {
+      "id": "thung-carton",
+      "name": "Thùng carton 3-5-7 lớp",
+      "desc": "Thùng carton sóng chịu lực cao, in flexo trực tiếp, tùy chỉnh kích thước theo đơn hàng.",
+      "use": "Vận chuyển hàng hóa, xuất khẩu, đóng gói công nghiệp"
+    },
+    {
+      "id": "tui-giay-kraft",
+      "name": "Túi giấy kraft",
+      "desc": "Túi giấy kraft tự nhiên hoặc tráng phủ, quai xách chắc, in logo theo yêu cầu.",
+      "use": "Ngành F&B, thời trang, quà tặng, bán lẻ"
+    },
+    {
+      "id": "hop-gap",
+      "name": "Hộp giấy gấp (Folding Carton)",
+      "desc": "Hộp giấy cứng, ép nhũ, bế nổi, phù hợp trưng bày trên kệ hàng.",
+      "use": "Mỹ phẩm, dược phẩm, thực phẩm cao cấp"
+    },
+    {
+      "id": "mang-boc",
+      "name": "Màng bọc & vật liệu đệm lót",
+      "desc": "Màng PE co, màng chít pallet, xốp hơi, giấy đệm chống sốc.",
+      "use": "Bảo vệ hàng hóa trong kho vận và vận chuyển"
+    }
+  ],
+  "processSteps": [
+    { "step": "01", "title": "Tiếp nhận yêu cầu", "desc": "Khảo sát sản phẩm, kích thước, tải trọng và ngân sách của khách hàng." },
+    { "step": "02", "title": "Thiết kế mẫu", "desc": "Dựng bản vẽ kỹ thuật, làm mẫu thử (sample) để khách hàng duyệt." },
+    { "step": "03", "title": "Sản xuất", "desc": "In ấn, cắt bế, ghim/dán trên dây chuyền tự động, kiểm soát chất lượng từng lô." },
+    { "step": "04", "title": "Giao hàng", "desc": "Đóng kiện, giao hàng đúng tiến độ tận kho khách hàng trên toàn quốc." }
+  ]
+}

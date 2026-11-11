@@ -1,0 +1,188 @@
+{
+  "sourceHash": "e46c0638c890cb3187ff751745d11c6da61a82b8",
+  "generatedAt": "2026-09-25T03:29:46.926Z",
+  "seeded": true,
+  "data": {
+    "code": "zh",
+    "label": "中文",
+    "company": {
+      "shortName": "YFY",
+      "legalName": "Công Ty TNHH Công Nghệ In Màu Bao Bì YFY",
+      "tagline": "包装坚固可靠,品牌行稳致远"
+    },
+    "nav": {
+      "home": "首页",
+      "about": "公司简介",
+      "products": "产品",
+      "contact": "联系我们"
+    },
+    "footer": {
+      "navTitle": "导航",
+      "contactTitle": "联系方式",
+      "rights": "版权所有。"
+    },
+    "home": {
+      "stamp": "生产 &middot; 印刷 &middot; 包装",
+      "h1": "每一件货品<br>都是一份<br>如约而至的承诺。",
+      "sub": "纸箱、牛皮纸袋与折叠纸盒均按标准工艺生产,准时交付。",
+      "ctaPrimary": "查看产品",
+      "ctaSecondary": "获取报价",
+      "stats": [
+        {
+          "num": "14",
+          "label": "年包装生产经验"
+        },
+        {
+          "num": "320+",
+          "label": "企业客户"
+        },
+        {
+          "num": "98%",
+          "label": "订单准时交付率"
+        },
+        {
+          "num": "4",
+          "label": "条生产线"
+        }
+      ],
+      "productsTitle": "主要产品系列",
+      "viewAll": "查看完整产品目录 &rarr;",
+      "processTitle": "下单流程",
+      "ctaBandTitle": "下一批货需要报价吗?",
+      "ctaBandText": "发送产品规格,我们将在24个工作小时内回复报价。",
+      "ctaBandBtn": "立即联系",
+      "galleryTitle": "工厂与生产实景",
+      "gallery": [
+        {
+          "img": "gallery-1.svg",
+          "caption": "生产厂房"
+        },
+        {
+          "img": "gallery-2.svg",
+          "caption": "印刷生产线"
+        },
+        {
+          "img": "gallery-3.svg",
+          "caption": "质量检测"
+        },
+        {
+          "img": "gallery-4.svg",
+          "caption": "包装与发货"
+        }
+      ]
+    },
+    "about": {
+      "stamp": "公司简介",
+      "h1": "我们把每一件包装<br>都当作一份承诺来做。",
+      "storyTitle": "关于",
+      "p1": "{company}起步于美灵的一间小型印刷厂,如今已建成4条一体化生产线——涵盖瓦楞成型、柔版印刷、模切到成品加工。我们为工厂、零售连锁及餐饮食品品牌提供符合规格、按时交付的包装产品。",
+      "p2": "我们的理念很简单:一个变形的纸箱、一个提手撕裂的纸袋,都是对终端客户的失信。因此每一批产品出厂前都要经过耐压强度、湿度及印刷附着力检测。",
+      "values": [
+        {
+          "title": "严格按规格生产",
+          "text": "每批大批量生产前均进行耐压强度(ECT)和耐破度(BST)检测。"
+        },
+        {
+          "title": "按时交付",
+          "text": "生产进度公开透明,各阶段实时向客户更新。"
+        },
+        {
+          "title": "可持续材料",
+          "text": "优先采用FSC认证再生纸,逐步减少一次性塑料包装。"
+        }
+      ],
+      "facts": [
+        {
+          "title": "生产基地",
+          "text": "河内美灵光明工业园12号地块 —— 厂房面积6,000平方米"
+        },
+        {
+          "title": "生产能力",
+          "text": "全线日产能可达40,000个纸箱"
+        },
+        {
+          "title": "认证资质",
+          "text": "ISO 9001:2015,纸张供应链FSC-CoC认证"
+        }
+      ],
+      "ctaTitle": "想实地参观工厂吗?",
+      "ctaText": "预约实地考察生产线与质量检测流程。",
+      "ctaBtn": "预约参观"
+    },
+    "products": {
+      "stamp": "产品目录",
+      "h1": "为每一个流通环节<br>量身定制的包装。",
+      "useLabel": "适用场景",
+      "customTitle": "没有找到合适的规格?",
+      "customText": "我们支持按需设计与定制生产:尺寸、瓦楞厚度、油墨类型,起订量可根据订单灵活调整。",
+      "customBtn": "提交定制需求"
+    },
+    "contact": {
+      "stamp": "联系我们",
+      "h1": "发送产品规格,<br>24小时内获取报价。",
+      "infoTitle": "联系方式",
+      "addressLabel": "地址:",
+      "phoneLabel": "电话:",
+      "emailLabel": "邮箱:",
+      "hoursLabel": "工作时间:",
+      "hoursValue": "周一至周六,8:00 – 17:30",
+      "formName": "姓名",
+      "formPhone": "电话号码",
+      "formMessage": "包装需求",
+      "formMessagePh": "产品类型、尺寸、预计数量……",
+      "formSubmit": "提交需求",
+      "successTitle": "提交成功",
+      "successText": "感谢您的联系,我们的业务团队将在24个工作小时内回复。",
+      "errorTitle": "提交失败",
+      "errorText": "发送邮件时出现错误。请稍后重试,或直接拨打旁边的电话号码。"
+    },
+    "productItems": [
+      {
+        "id": "thung-carton",
+        "name": "三层/五层/七层瓦楞纸箱",
+        "desc": "高强度瓦楞纸箱,支持柔版直接印刷,尺寸可按订单定制。",
+        "use": "物流运输、出口贸易、工业包装"
+      },
+      {
+        "id": "tui-giay-kraft",
+        "name": "牛皮纸袋",
+        "desc": "原色或覆膜牛皮纸袋,手提带牢固,可按需印制品牌标志。",
+        "use": "餐饮食品、时尚服饰、礼品、零售"
+      },
+      {
+        "id": "hop-gap",
+        "name": "折叠纸盒",
+        "desc": "硬质折叠纸盒,支持烫金、压凸工艺,适合货架陈列展示。",
+        "use": "化妆品、医药、高端食品"
+      },
+      {
+        "id": "mang-boc",
+        "name": "缠绕膜与缓冲材料",
+        "desc": "PE热收缩膜、托盘缠绕膜、气泡膜及缓冲纸垫。",
+        "use": "仓储与运输过程中的货物保护"
+      }
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "需求确认",
+        "desc": "与客户确认产品类型、尺寸、承重要求及预算。"
+      },
+      {
+        "step": "02",
+        "title": "样品设计",
+        "desc": "制作技术图纸及实物样品,供客户确认。"
+      },
+      {
+        "step": "03",
+        "title": "批量生产",
+        "desc": "自动化产线印刷、模切、成型,每批次均有质量检测。"
+      },
+      {
+        "step": "04",
+        "title": "交付出货",
+        "desc": "打包并按时配送至客户仓库,全国范围可达。"
+      }
+    ]
+  }
+}

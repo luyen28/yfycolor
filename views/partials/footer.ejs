@@ -1,0 +1,24 @@
+  </main>
+  <footer class="site-footer">
+    <div class="flute-strip" aria-hidden="true"></div>
+    <div class="wrap footer-inner">
+      <div class="footer-col">
+        <span class="brand-mark">YFY</span>
+        <p><%= t.company.legalName %><br><%= t.company.tagline %></p>
+      </div>
+      <div class="footer-col">
+        <h4><%= t.footer.contactTitle %></h4>
+        <p><%= company.address %></p>
+        <p><%= company.phone %> &middot; <%= company.email %></p>
+      </div>
+      <div class="footer-col">
+        <h4><%= t.footer.navTitle %></h4>
+        <p><a href="/gioi-thieu"><%= t.nav.about %></a></p>
+        <p><a href="/san-pham"><%= t.nav.products %></a></p>
+        <p><a href="/lien-he"><%= t.nav.contact %></a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">© <%= new Date().getFullYear() %> <%= t.company.legalName %>. <%= t.footer.rights %></div>
+  </footer>
+</body>
+</html>

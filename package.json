@@ -1,0 +1,17 @@
+{
+  "name": "baobi-website",
+  "version": "1.0.0",
+  "description": "Website giới thiệu công ty bao bì - xây dựng bằng Node.js/Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "translate": "node scripts/pretranslate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ejs": "^3.1.10",
+    "cookie-parser": "^1.4.6",
+    "nodemailer": "^6.9.14"
+  }
+}

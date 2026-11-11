@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="stamp"><%= t.products.stamp %></span>
+    <h1><%- t.products.h1 %></h1>
+  </div>
+</section>
+
+<section class="section products-full">
+  <div class="wrap product-grid product-grid-full">
+    <% t.productItems.forEach(function(p, i){ %>
+      <article class="product-card product-card-full">
+        <img class="product-photo" src="/images/product-<%= p.id %>.svg" alt="<%= p.name %>" loading="lazy">
+        <span class="product-index"><%= String(i+1).padStart(2,'0') %></span>
+        <h3><%= p.name %></h3>
+        <p><%= p.desc %></p>
+        <div class="product-meta">
+          <span class="product-meta-label"><%= t.products.useLabel %></span>
+          <span><%= p.use %></span>
+        </div>
+      </article>
+    <% }); %>
+  </div>
+</section>
+
+<section class="section custom-note">
+  <div class="wrap custom-note-inner">
+    <h2><%= t.products.customTitle %></h2>
+    <p><%= t.products.customText %></p>
+    <a href="/lien-he" class="btn btn-outline"><%= t.products.customBtn %></a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
